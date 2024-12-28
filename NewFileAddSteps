@@ -11,5 +11,11 @@ To authorize a created new file have to give commit command
     git commit -m "test file created"
 To push the file from git repo to github, use the below one
     git push origin main
+If you modified or deleted any files from git repo, that has to be committed then only changes will reflect in github.
+    git add filename --(add command is not only for adding a new file. It will use for modification and deletion of any file)
+    git commit -m "commit message"
+    git push origin mian
+If you created any file or modified files from github changes not reflected in git repo. To get it, pull command is used.
+    git pull origin -- it will throw the files to git repo.
 
 
