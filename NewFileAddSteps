@@ -1,0 +1,15 @@
+----Steps to add new file to a branch from VS code
+Create a new file from branch (GithubTest1) using the below command
+    git clone https://github.com/AbiRamalingam/GithubTest1.git
+Navigate to required folder using cd<foldername>
+    cd githubtest1
+To check status use the command below
+    git status
+Add a new file from new terminal and save the file. To get the new file in git repo
+    git add <filename>
+To authorize a created new file have to give commit command
+    git commit -m "test file created"
+To push the file from git repo to github, use the below one
+    git push origin main
+    
+
