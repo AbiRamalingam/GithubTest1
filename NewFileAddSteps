@@ -5,11 +5,11 @@ Navigate to required folder using cd<foldername>
     cd githubtest1
 To check status use the command below
     git status
-Add a new file from new terminal and save the file. To get the new file in git repo
+Add a new file from new terminal and save the file. To get the new file in git repo. It's a case sensitive.
     git add <filename>
 To authorize a created new file have to give commit command
     git commit -m "test file created"
 To push the file from git repo to github, use the below one
     git push origin main
-    
+
 
